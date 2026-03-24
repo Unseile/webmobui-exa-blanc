@@ -1,2 +1,20 @@
-// URL de base du serveur
-const BASE_URL = 'https://webmobui-25-exa-backend-dbb26fcb95b3.herokuapp.com'
+import data from './api.json' assert { type: 'json' }
+
+const getGenres = () => Promise.resolve(data.genres);
+
+const getRecipes = () => {
+  const recipes = data.genres.flatMap(genre => genre.recipes);
+  return Promise.resolve(recipes);
+}
+
+const getRecipesByGenre = (genreId) => {
+  const genre = data.genres.find(genre => genre.id === genreId);
+  return Promise.resolve(genre ? genre.recipes : []);
+}
+
+const getGenreById = (genreId) => {
+  const genre = data.genres.find(genre => genre.id === genreId);
+  return Promise.resolve(genre);
+}
+
+export { getGenres, getRecipes, getRecipesByGenre, getGenreById }

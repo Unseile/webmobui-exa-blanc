@@ -1,0 +1,69 @@
+{
+  "pagination": {
+    "page": 1,
+    "total_pages": 4,
+    "total": 16,
+    "limit": 3
+  },
+  "genres": [
+    {
+      "id": "1",
+      "title": "Italien",
+      "count": 42,
+      "thumbnail_url": "https://api.recipes.dev/images/genres/italien.jpg",
+      "recipes": [
+        {
+          "id": "101",
+          "name": "Pasta Carbonara",
+          "preview_url": "https://api.recipes.dev/images/recipes/carbonara.jpg",
+          "steps": [
+            { "order": 1, "instruction": "Faire bouillir de l'eau salée dans une grande casserole." },
+            { "order": 2, "instruction": "Cuire les spaghettis al dente selon les instructions du paquet." },
+            { "order": 3, "instruction": "Faire revenir la guanciale dans une poêle jusqu'à ce qu'elle soit dorée." },
+            { "order": 4, "instruction": "Mélanger les œufs, le pecorino râpé et le poivre noir dans un bol." },
+            { "order": 5, "instruction": "Égoutter les pâtes et les incorporer hors du feu avec la sauce aux œufs." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Asiatique",
+      "count": 67,
+      "thumbnail_url": "https://api.recipes.dev/images/genres/asiatique.jpg",
+      "recipes": [
+        {
+          "id": "102",
+          "name": "Ramen au miso",
+          "preview_url": "https://api.recipes.dev/images/recipes/ramen-miso.jpg",
+          "steps": [
+            { "order": 1, "instruction": "Préparer un bouillon de poulet et le porter à ébullition." },
+            { "order": 2, "instruction": "Dissoudre la pâte de miso dans une louche de bouillon chaud." },
+            { "order": 3, "instruction": "Cuire les nouilles ramen séparément selon le paquet." },
+            { "order": 4, "instruction": "Assembler le bol : nouilles, bouillon miso, œuf mollet, chashu et nori." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Français",
+      "count": 35,
+      "thumbnail_url": "https://api.recipes.dev/images/genres/francais.jpg",
+      "recipes": [
+        {
+          "id": "103",
+          "name": "Soupe à l'oignon gratinée",
+          "preview_url": "https://api.recipes.dev/images/recipes/soupe-oignon.jpg",
+          "steps": [
+            { "order": 1, "instruction": "Émincer finement les oignons et les faire caraméliser 30 min à feu doux avec du beurre." },
+            { "order": 2, "instruction": "Déglacer au vin blanc et ajouter le bouillon de bœuf." },
+            { "order": 3, "instruction": "Laisser mijoter 20 minutes. Saler et poivrer." },
+            { "order": 4, "instruction": "Verser dans des bols allant au four, poser une tranche de pain grillé et couvrir de gruyère râpé." },
+            { "order": 5, "instruction": "Gratiner sous le grill du four jusqu'à coloration dorée." }
+          ]
+        }
+      ]
+    }
+  ]
+}
