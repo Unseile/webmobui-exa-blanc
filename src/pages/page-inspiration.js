@@ -38,9 +38,7 @@ customElements.define(
         `;
       this.selectElements();
       this.addEventListeners();
-      getRecipes().then(() => {
-    this.updateRecetteInfos()
-  })
+      this.updateRecetteInfos();
     }
 
     selectElements() {

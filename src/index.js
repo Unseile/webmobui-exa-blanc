@@ -4,6 +4,8 @@ import { displaySection, activateLink } from "./helpers.js";
 import "./pages/page-genres.js";
 import "./pages/page-recettes.js";
 import "./pages/page-inspiration.js"
+import './pages/page-favorites.js'
+import "./pages/page-genres-favorites.js"
 //elements
 import "./elements/genres-item.js";
 import "./elements/recettes-item.js";
@@ -31,7 +33,7 @@ const routeur = () => {
       break;
 
     case "#liked":
-      displaySection("genres");
+      main.innerHTML = "<page-favorites></page-favorites>"
       break;
   }
 };
