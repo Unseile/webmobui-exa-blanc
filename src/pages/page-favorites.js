@@ -4,7 +4,7 @@ import { PageGenres } from "./page-genres-favorites.js"
 customElements.define("page-favorites", class extends PageGenres {
 
     getTitle(genres){
-        return `Favoris`;
+        return `Favoris (${genres.length})`;
     }
 
     getData() {
