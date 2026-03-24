@@ -38,8 +38,13 @@ const routeur = () => {
   }
 };
 
+const connectServiceWorkers = () => {
+  navigator.serviceWorker.register('/worker.js')
+}
+
 // On veut être averti des changements
 window.addEventListener("hashchange", routeur);
 
 // on exécute une première fois au chargement de la page pour afficher la bonne section
 routeur();
+connectServiceWorkers()

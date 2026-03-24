@@ -9,7 +9,6 @@ const removeItem = (id) => localStorage.removeItem(id)
 const FAVORITES_KEY = 'favorites'
 
 const getFavorites = () => {
-    console.log('test')
     return getItem(FAVORITES_KEY) ?? [];
 }
 

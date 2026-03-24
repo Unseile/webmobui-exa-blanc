@@ -9,7 +9,6 @@ customElements.define("page-favorites", class extends PageGenres {
 
     getData() {
     const favs = getFavorites()
-    console.log('favoris:', favs)  // ← tableau vide [] ou données ?
     return Promise.resolve(favs)
 }
 })
