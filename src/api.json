@@ -16,6 +16,7 @@
           "id": "101",
           "name": "Pasta Carbonara",
           "preview_url": "https://api.recipes.dev/images/recipes/carbonara.jpg",
+          "description": "WOOOAH, j'adore les pâtes",
           "steps": [
             { "order": 1, "instruction": "Faire bouillir de l'eau salée dans une grande casserole." },
             { "order": 2, "instruction": "Cuire les spaghettis al dente selon les instructions du paquet." },
@@ -28,6 +29,7 @@
           "id": "102",
           "name": "Lasagne",
           "preview_url": "https://api.recipes.dev/images/recipes/carbonara.jpg",
+          "description": "WOOOAH, COMMENT ON PEUT PAS TROUVER ça BON !",
           "steps": [
             { "order": 1, "instruction": "Faire bouillir de l'eau salée dans une grande casserole." },
             { "order": 2, "instruction": "Cuire les spaghettis al dente selon les instructions du paquet." },
@@ -48,6 +50,7 @@
           "id": "201",
           "name": "Ramen au miso",
           "preview_url": "https://api.recipes.dev/images/recipes/ramen-miso.jpg",
+          "description": "-gyne",
           "steps": [
             { "order": 1, "instruction": "Préparer un bouillon de poulet et le porter à ébullition." },
             { "order": 2, "instruction": "Dissoudre la pâte de miso dans une louche de bouillon chaud." },
@@ -59,6 +62,7 @@
           "id": "202",
           "name": "Nouilles sauté",
           "preview_url": "https://api.recipes.dev/images/recipes/ramen-miso.jpg",
+          "description": "Elles adorent faire du trampoline",
           "steps": [
             { "order": 1, "instruction": "Préparer un bouillon de poulet et le porter à ébullition." },
             { "order": 2, "instruction": "Dissoudre la pâte de miso dans une louche de bouillon chaud." },
@@ -78,6 +82,7 @@
           "id": "301",
           "name": "Soupe à l'oignon gratinée",
           "preview_url": "https://api.recipes.dev/images/recipes/soupe-oignon.jpg",
+          "description": "BEUUUURK",
           "steps": [
             { "order": 1, "instruction": "Émincer finement les oignons et les faire caraméliser 30 min à feu doux avec du beurre." },
             { "order": 2, "instruction": "Déglacer au vin blanc et ajouter le bouillon de bœuf." },
@@ -90,6 +95,7 @@
           "id": "302",
           "name": "Boeuf bourgignon",
           "preview_url": "https://api.recipes.dev/images/recipes/soupe-oignon.jpg",
+          "description": "Au moins un plat qui sauve la France",
           "steps": [
             { "order": 1, "instruction": "Émincer finement les oignons et les faire caraméliser 30 min à feu doux avec du beurre." },
             { "order": 2, "instruction": "Déglacer au vin blanc et ajouter le bouillon de bœuf." },

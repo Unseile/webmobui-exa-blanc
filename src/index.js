@@ -3,6 +3,7 @@ import { displaySection, activateLink } from "./helpers.js";
 //pages
 import "./pages/page-genres.js";
 import "./pages/page-recettes.js";
+import "./pages/page-inspiration.js"
 //elements
 import "./elements/genres-item.js";
 import "./elements/recettes-item.js";
@@ -26,7 +27,7 @@ const routeur = () => {
       break;
 
     case "#inspiration":
-      displaySection("inspiration");
+      main.innerHTML = "<page-inspiration />"
       break;
 
     case "#liked":
